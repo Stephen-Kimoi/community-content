@@ -13,6 +13,12 @@ In this tutorial you will build a codebase health agent. Give it a Python projec
 
 This pattern is directly applicable to [AI hackathons](https://lablab.ai/ai-hackathons): instead of manually triaging failures during a crunch, you fire the agent at a broken test suite and redirect your attention to the feature work that matters.
 
+Here's a preview of the codebase health agent in action:
+
+<video controls width="100%" style={{borderRadius: "8px"}}>
+  <source src="https://res.cloudinary.com/dygkv9gam/video/upload/v1777043807/lablab-tutorials/claude-code-agent-harness-demo.mp4" type="video/mp4" />
+</video>
+
 ### What You'll Build
 
 A Python script (`agent.py`) that:
@@ -27,16 +33,6 @@ A Python script (`agent.py`) that:
 - Python 3.10+
 - An [Anthropic API key](https://platform.claude.com/)
 - Basic familiarity with pytest
-
----
-
-## Demo
-
-Watch the agent run end-to-end: it picks up 4 failing tests, traces each bug to the source, applies the fixes, and verifies all 6 tests pass.
-
-<video controls width="100%" style={{borderRadius: "8px"}}>
-  <source src="https://res.cloudinary.com/dygkv9gam/video/upload/v1777043807/lablab-tutorials/claude-code-agent-harness-demo.mp4" type="video/mp4" />
-</video>
 
 ---
 
